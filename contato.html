@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Conexão Paciente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Conexão Paciente</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="sobre.html">Nossa História</a> | 
+            <strong>Contato</strong>
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+
+        <section>
+            <h2>Fale Conosco</h2>
+            <p>Quer se inscrever em nossas aulas práticas ou precisa de ajuda com alguma utilidade? Preencha os campos abaixo de forma simples. Nós lemos tudinho!</p>
+
+            <form action="#" method="POST">
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Ex: Maria Silva">
+                </p>
+                
+                <p>
+                    <label for="email">Seu E-mail:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="Ex: seuemail@gmail.com">
+                </p>
+                
+                <p>
+                    <label for="assunto">Celular ou WhatsApp:</label><br>
+                    <input type="text" id="assunto" name="assunto" required placeholder="Ex: (11) 98765-4321">
+                </p>
+                
+                <p>
+                    <label for="categoria">O que você precisa?</label><br>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Escolha uma opção...</option>
+                        <option value="ajuda">Ajuda para emitir boletos e contas</option>
+                        <option value="aulas">Aulas práticas de uso de celular</option>
+                        <option value="outros">Outros assuntos</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label for="comentario">Escreva sua mensagem:</label><br>
+                    <textarea id="comentario" name="comentario" required placeholder="Pode escrever do seu jeitinho aqui..."></textarea>
+                </p>
+                
+                <p>
+                    <button type="submit">Enviar para o Projeto</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Conexão Paciente. Todos os direitos reservados para a atividade de Front-End.</p>
+    </footer>
+
+</body>
+</html>
