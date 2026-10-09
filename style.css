@@ -1,0 +1,128 @@
+:root {
+    --verde-fundo: #e6f4ea;
+    --azul-botoes: #0066cc;
+    --verde-titulos: #137333;
+    --cinza-texto: #202124;
+}
+
+body {
+    background-color: var(--verde-fundo);
+    color: var(--cinza-texto);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--azul-botoes);
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: var(--verde-titulos);
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+nav {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: var(--azul-botoes);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Imagens e vídeos com tamanhos controlados, bordas claras e cantos arredondados */
+img, iframe {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border: 4px solid #ffffff; /* Borda sólida de cor clara */
+    border-radius: 12px;       /* Cantos arredondados e lindos */
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #34a853;
+    margin: 25px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.botao-servico {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.botao-verde { background-color: var(--verde-titulos); }
+.botao-azul { background-color: var(--azul-botoes); }
+.botao-cinza { background-color: #5f6368; }
+.botao-laranja { background-color: #d97706; }
+
+form p {
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--azul-botoes);
+    color: white;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
