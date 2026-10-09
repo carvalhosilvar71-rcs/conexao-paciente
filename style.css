@@ -61,8 +61,8 @@ img, iframe {
     height: auto;
     display: block;
     margin: 20px 0;
-    border: 4px solid #ffffff; /* Borda sólida de cor clara */
-    border-radius: 12px;       /* Cantos arredondados e lindos */
+    border: 4px solid #ffffff; 
+    border-radius: 12px;       
 }
 
 iframe {
